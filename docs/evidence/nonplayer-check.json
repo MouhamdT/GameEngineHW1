@@ -1,0 +1,10 @@
+{
+  "collectiblesAfterNonPlayerOverlap": 100,
+  "playerScore": 0,
+  "cubeTarget": {
+    "x": 205.4201364517212,
+    "y": -150.70044994354248,
+    "z": 230.96053504943848
+  },
+  "pass": true
+}

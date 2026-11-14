@@ -1,0 +1,432 @@
+{
+  "engine": "5.8.4",
+  "map": "/Game/ThirdPerson/Lvl_ThirdPerson",
+  "expectedBounds": {
+    "x": [
+      -1000,
+      1000
+    ],
+    "y": [
+      -2000,
+      2000
+    ]
+  },
+  "initialCount": 100,
+  "types": {
+    "Coin": 36,
+    "Potion": 36,
+    "Gem": 28
+  },
+  "groundClearanceRange": [
+    0.9986572265624716,
+    1.317962646484375
+  ],
+  "samples": [
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Coin_C_0"
+      },
+      "location": {
+        "x": 630.5428743362427,
+        "y": -1409.4058275222778,
+        "z": 235
+      },
+      "score": 68,
+      "meshBottomZ": 1.0,
+      "groundZ": 0,
+      "clearance": 1.0,
+      "pickupCenterZ": 20.960535049438477
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Potion_C_0"
+      },
+      "location": {
+        "x": 87.13030815124512,
+        "y": 716.3915634155273,
+        "z": 235
+      },
+      "score": 55,
+      "meshBottomZ": 95.43894195556638,
+      "groundZ": 94.158203125,
+      "clearance": 1.2807388305663778,
+      "pickupCenterZ": 127.82767011299728
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Potion_C_1"
+      },
+      "location": {
+        "x": 969.9087142944336,
+        "y": 525.3455638885498,
+        "z": 235
+      },
+      "score": 64,
+      "meshBottomZ": 0.9999999999999772,
+      "groundZ": 0,
+      "clearance": 0.9999999999999772,
+      "pickupCenterZ": 33.388728157430876
+    }
+  ],
+  "awards": [
+    {
+      "awarded": 68,
+      "expectedTotal": 68,
+      "actualTotal": 0,
+      "hud": "0"
+    },
+    {
+      "awarded": 64,
+      "expectedTotal": 132,
+      "actualTotal": 0,
+      "hud": "0"
+    },
+    {
+      "awarded": 30,
+      "expectedTotal": 162,
+      "actualTotal": 0,
+      "hud": "0"
+    }
+  ],
+  "remainingAfterThree": 100,
+  "screenshot": "docs\\evidence\\grounded-collectibles-and-hud.png",
+  "elapsedSeconds": 176.46,
+  "firstFixtureChecks": {
+    "count100": true,
+    "positions": true,
+    "scores": true,
+    "allGrounded": false,
+    "resetScore": true,
+    "scoreAndHUD": false,
+    "destroyedOnce": false
+  },
+  "checks": {
+    "count100": true,
+    "positions": true,
+    "scores": true,
+    "groundedWithin2cm": true,
+    "resetScore": true
+  },
+  "verificationNotes": {
+    "groundCriterion": "All 100 visual mesh bottoms lie 0.5 to 2.0 cm above the independently traced collision surface; the configured clearance is 1 cm. Different trace queries vary by up to about 0.32 cm in this level.",
+    "firstPickupFixture": "Moving items onto a stationary player did not trigger their child overlap update; this is not the player-walks-into-item scenario. Replaced by pickup-regression.json, which moves the player into existing grounded spheres.",
+    "capture": "The viewport capture is an Edit viewport, not a Play HUD capture."
+  },
+  "outsideInitialHalfMillimeterTolerance": [
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Potion_C_0"
+      },
+      "location": {
+        "x": 87.13030815124512,
+        "y": 716.3915634155273,
+        "z": 235
+      },
+      "score": 55,
+      "meshBottomZ": 95.43894195556638,
+      "groundZ": 94.158203125,
+      "clearance": 1.2807388305663778,
+      "pickupCenterZ": 127.82767011299728
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Potion_C_2"
+      },
+      "location": {
+        "x": 533.3720445632935,
+        "y": 130.92446327209473,
+        "z": 235
+      },
+      "score": 98,
+      "meshBottomZ": 184.47120666503903,
+      "groundZ": 183.31396484375,
+      "clearance": 1.157241821289034,
+      "pickupCenterZ": 216.85993482246994
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Potion_C_5"
+      },
+      "location": {
+        "x": -34.76059436798096,
+        "y": -1940.5499435961246,
+        "z": 235
+      },
+      "score": 76,
+      "meshBottomZ": 401.25,
+      "groundZ": 400,
+      "clearance": 1.25,
+      "pickupCenterZ": 433.6387281574309
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Coin_C_2"
+      },
+      "location": {
+        "x": -95.919668674469,
+        "y": 736.8998527526855,
+        "z": 235
+      },
+      "score": 61,
+      "meshBottomZ": 84.87133026123047,
+      "groundZ": 83.64111328125,
+      "clearance": 1.2302169799804688,
+      "pickupCenterZ": 104.83186531066895
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Potion_C_7"
+      },
+      "location": {
+        "x": -57.161152362823486,
+        "y": 1929.319143295288,
+        "z": 235
+      },
+      "score": 98,
+      "meshBottomZ": 401.25,
+      "groundZ": 400,
+      "clearance": 1.25,
+      "pickupCenterZ": 433.6387281574309
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Coin_C_8"
+      },
+      "location": {
+        "x": 671.5598106384277,
+        "y": 1995.971441268921,
+        "z": 235
+      },
+      "score": 20,
+      "meshBottomZ": 401.25,
+      "groundZ": 400,
+      "clearance": 1.25,
+      "pickupCenterZ": 421.2105350494385
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Potion_C_16"
+      },
+      "location": {
+        "x": 642.9334878921509,
+        "y": -1872.0664083957672,
+        "z": 235
+      },
+      "score": 16,
+      "meshBottomZ": 201.24999999999997,
+      "groundZ": 200,
+      "clearance": 1.2499999999999716,
+      "pickupCenterZ": 233.63872815743088
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Gem_C_9"
+      },
+      "location": {
+        "x": 987.6705408096313,
+        "y": -1764.8853957653046,
+        "z": 235
+      },
+      "score": 36,
+      "meshBottomZ": 95.0412826538086,
+      "groundZ": 93.835205078125,
+      "clearance": 1.2060775756835938,
+      "pickupCenterZ": 107.38062286376953
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Coin_C_13"
+      },
+      "location": {
+        "x": 374.0653991699219,
+        "y": -1838.0077481269836,
+        "z": 235
+      },
+      "score": 11,
+      "meshBottomZ": 201.25,
+      "groundZ": 200,
+      "clearance": 1.25,
+      "pickupCenterZ": 221.21053504943848
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Gem_C_11"
+      },
+      "location": {
+        "x": -908.3223938941956,
+        "y": 1679.3115139007568,
+        "z": 235
+      },
+      "score": 13,
+      "meshBottomZ": 55.42747497558594,
+      "groundZ": 54.1611328125,
+      "clearance": 1.2663421630859375,
+      "pickupCenterZ": 67.76681518554688
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Gem_C_16"
+      },
+      "location": {
+        "x": 993.2858943939209,
+        "y": -1622.6691603660583,
+        "z": 235
+      },
+      "score": 62,
+      "meshBottomZ": 97.9063491821289,
+      "groundZ": 96.6429443359375,
+      "clearance": 1.2634048461914062,
+      "pickupCenterZ": 110.24568939208984
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Coin_C_20"
+      },
+      "location": {
+        "x": 156.16321563720703,
+        "y": 765.465259552002,
+        "z": 235
+      },
+      "score": 33,
+      "meshBottomZ": 70.31015014648438,
+      "groundZ": 68.9921875,
+      "clearance": 1.317962646484375,
+      "pickupCenterZ": 90.27068519592285
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Potion_C_21"
+      },
+      "location": {
+        "x": -134.1899037361145,
+        "y": 783.4100723266602,
+        "z": 235
+      },
+      "score": 45,
+      "meshBottomZ": 61.022857666015604,
+      "groundZ": 59.7896728515625,
+      "clearance": 1.2331848144531037,
+      "pickupCenterZ": 93.4115858234465
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Potion_C_22"
+      },
+      "location": {
+        "x": -57.039082050323486,
+        "y": 703.0854225158691,
+        "z": 235
+      },
+      "score": 51,
+      "meshBottomZ": 102.21339416503903,
+      "groundZ": 100.9818115234375,
+      "clearance": 1.231582641601534,
+      "pickupCenterZ": 134.60212232246994
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Potion_C_23"
+      },
+      "location": {
+        "x": -624.8054504394531,
+        "y": 193.67051124572754,
+        "z": 235
+      },
+      "score": 62,
+      "meshBottomZ": 138.88421630859372,
+      "groundZ": 137.5972900390625,
+      "clearance": 1.2869262695312216,
+      "pickupCenterZ": 171.27294446602463
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Coin_C_25"
+      },
+      "location": {
+        "x": -430.70775270462036,
+        "y": -78.43255996704102,
+        "z": 235
+      },
+      "score": 27,
+      "meshBottomZ": 201.25,
+      "groundZ": 200,
+      "clearance": 1.25,
+      "pickupCenterZ": 221.21053504943848
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Gem_C_19"
+      },
+      "location": {
+        "x": 157.32288360595703,
+        "y": 469.6798324584961,
+        "z": 235
+      },
+      "score": 49,
+      "meshBottomZ": 201.25,
+      "groundZ": 200,
+      "clearance": 1.25,
+      "pickupCenterZ": 213.58934020996094
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Gem_C_21"
+      },
+      "location": {
+        "x": -442.12162494659424,
+        "y": 1980.3459644317627,
+        "z": 235
+      },
+      "score": 29,
+      "meshBottomZ": 401.25,
+      "groundZ": 400,
+      "clearance": 1.25,
+      "pickupCenterZ": 413.58934020996094
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Coin_C_28"
+      },
+      "location": {
+        "x": -153.23340892791748,
+        "y": 707.8464031219482,
+        "z": 235
+      },
+      "score": 71,
+      "meshBottomZ": 99.74337768554688,
+      "groundZ": 98.540283203125,
+      "clearance": 1.203094482421875,
+      "pickupCenterZ": 119.70391273498535
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Gem_C_26"
+      },
+      "location": {
+        "x": 556.1387538909912,
+        "y": -36.92734241485596,
+        "z": 235
+      },
+      "score": 86,
+      "meshBottomZ": 173.14730834960938,
+      "groundZ": 171.9306640625,
+      "clearance": 1.216644287109375,
+      "pickupCenterZ": 185.4866485595703
+    },
+    {
+      "actor": {
+        "refPath": "/Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Collectible_Gem_C_27"
+      },
+      "location": {
+        "x": -968.6269722878933,
+        "y": 1927.366018295288,
+        "z": 235
+      },
+      "score": 81,
+      "meshBottomZ": 401.25,
+      "groundZ": 400,
+      "clearance": 1.25,
+      "pickupCenterZ": 413.58934020996094
+    }
+  ]
+}

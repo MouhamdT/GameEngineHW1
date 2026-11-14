@@ -1,0 +1,12 @@
+{
+  "method": "Native Enhanced Input action injection; IA_Interact is mapped to E. No OS keyboard events were sent.",
+  "closedInitially": true,
+  "farInputLeavesClosed": true,
+  "approachAloneLeavesClosed": true,
+  "nearInputOpens": true,
+  "finalYawDegrees": 90.00000000000001,
+  "repeatedInputDoesNotAccumulate": true,
+  "durationSeconds": 1.0,
+  "animationImplementation": "Blueprint Timeline update uses normalized playback time to interpolate hinge rotation.",
+  "pass": true
+}

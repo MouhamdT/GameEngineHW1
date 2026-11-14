@@ -1,0 +1,31 @@
+{
+  "method": "Move the player into existing grounded pickup spheres; no item teleport fixture.",
+  "awards": [
+    {
+      "type": "Coin",
+      "objectsCollected": 1,
+      "expectedTotal": 82,
+      "actualTotal": 82,
+      "hud": "82",
+      "pass": true
+    },
+    {
+      "type": "Gem",
+      "objectsCollected": 1,
+      "expectedTotal": 151,
+      "actualTotal": 151,
+      "hud": "151",
+      "pass": true
+    },
+    {
+      "type": "Potion",
+      "objectsCollected": 1,
+      "expectedTotal": 205,
+      "actualTotal": 205,
+      "hud": "205",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "capture": "docs\\evidence\\grounded-pickups-play.png"
+}

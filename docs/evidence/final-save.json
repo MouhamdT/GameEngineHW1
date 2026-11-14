@@ -1,0 +1,10 @@
+{
+  "blueprintsCompiledWithoutWarnings": 9,
+  "playStopped": true,
+  "doorActor": [
+    {
+      "refPath": "/Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_InteractiveDoor_C_UAID_025040778A1BE71403_1568649607"
+    }
+  ],
+  "temporaryProbeRemoved": true
+}
